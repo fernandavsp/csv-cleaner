@@ -1,0 +1,321 @@
+id,nome,email,data,observacao
+1,Ana,ana@email.com,2024-02-29,bissexto valido ISO
+2,Bruno,bruno@email.com,2023-02-29,bissexto invalido
+3,Caio,caio@email.com,31/04/2024,dia invalido (abril)
+4,Duda,duda@email.com,30/04/2024,data valida BR
+5,Enzo,enzo@email.com,01/02/2024,ambigua dd/mm ou mm/dd
+6,Fernanda,fernanda@email.com,12/11/2024,ambigua dd/mm ou mm/dd
+7,Gabi,gabi@email.com,2024/12/31,ISO com barra
+8,Hugo,hugo@email.com,12-31-2024,US com hifen
+9,Iris,iris@email.com,31-12-2024,BR com hifen
+10,Joao,joao@email.com,2024-13-01,mes invalido
+11,Karen,karen@email.com,2024-00-10,mes zero
+12,Leo,leo@email.com,2024-01-00,dia zero
+13,Maya,maya@email.com,2024-01-32,dia invalido
+14,Nina,nina@email.com, 2024-05-01 ,com espacos
+15,Otto,otto@email.com,,data vazia
+16,Paula,paula@email.com,texto qualquer,nao data
+17,Quim,quim@email.com,2024-11-07T00:00:00,com timestamp
+18,Rita,rita@email.com,07/11/24,ano 2 digitos
+19,Sara,sara@email.com,11/07/2024,ambigua dd/mm ou mm/dd
+20,Tadeu,tadeu@email.com,07/11/2024,ambigua dd/mm ou mm/dd
+21,Pessoa21,pessoa21@email.com,2023-02-29,bissexto invalido repetido
+22,Pessoa22,pessoa22@email.com,31/04/2024,dia invalido repetido
+23,Pessoa23,pessoa23@email.com,01/02/2024,ambigua repetida
+24,Pessoa24,pessoa24@email.com,12/11/2024,ambigua repetida
+25,Pessoa25,pessoa25@email.com,2024/08/15,iso barra
+26,Pessoa26,pessoa26@email.com,08-15-2024,us hifen
+27,Pessoa27,pessoa27@email.com,15-08-2024,br hifen
+28,Pessoa28,pessoa28@email.com,,vazia
+29,Pessoa29,pessoa29@email.com,nao-e-data,texto
+30,Pessoa30,pessoa30@email.com,2024-02-29,bissexto valido repetido
+31,Pessoa31,pessoa31@email.com,2023-02-29,bissexto invalido repetido
+32,Pessoa32,pessoa32@email.com,31/04/2024,dia invalido repetido
+33,Pessoa33,pessoa33@email.com,01/02/2024,ambigua repetida
+34,Pessoa34,pessoa34@email.com,12/11/2024,ambigua repetida
+35,Pessoa35,pessoa35@email.com,2024/08/15,iso barra
+36,Pessoa36,pessoa36@email.com,08-15-2024,us hifen
+37,Pessoa37,pessoa37@email.com,15-08-2024,br hifen
+38,Pessoa38,pessoa38@email.com,,vazia
+39,Pessoa39,pessoa39@email.com,nao-e-data,texto
+40,Pessoa40,pessoa40@email.com,2024-02-29,bissexto valido repetido
+41,Pessoa41,pessoa41@email.com,2023-02-29,bissexto invalido repetido
+42,Pessoa42,pessoa42@email.com,31/04/2024,dia invalido repetido
+43,Pessoa43,pessoa43@email.com,01/02/2024,ambigua repetida
+44,Pessoa44,pessoa44@email.com,12/11/2024,ambigua repetida
+45,Pessoa45,pessoa45@email.com,2024/08/15,iso barra
+46,Pessoa46,pessoa46@email.com,08-15-2024,us hifen
+47,Pessoa47,pessoa47@email.com,15-08-2024,br hifen
+48,Pessoa48,pessoa48@email.com,,vazia
+49,Pessoa49,pessoa49@email.com,nao-e-data,texto
+50,Pessoa50,pessoa50@email.com,2024-02-29,bissexto valido repetido
+51,Pessoa51,pessoa51@email.com,2023-02-29,bissexto invalido repetido
+52,Pessoa52,pessoa52@email.com,31/04/2024,dia invalido repetido
+53,Pessoa53,pessoa53@email.com,01/02/2024,ambigua repetida
+54,Pessoa54,pessoa54@email.com,12/11/2024,ambigua repetida
+55,Pessoa55,pessoa55@email.com,2024/08/15,iso barra
+56,Pessoa56,pessoa56@email.com,08-15-2024,us hifen
+57,Pessoa57,pessoa57@email.com,15-08-2024,br hifen
+58,Pessoa58,pessoa58@email.com,,vazia
+59,Pessoa59,pessoa59@email.com,nao-e-data,texto
+60,Pessoa60,pessoa60@email.com,2024-02-29,bissexto valido repetido
+61,Pessoa61,pessoa61@email.com,2023-02-29,bissexto invalido repetido
+62,Pessoa62,pessoa62@email.com,31/04/2024,dia invalido repetido
+63,Pessoa63,pessoa63@email.com,01/02/2024,ambigua repetida
+64,Pessoa64,pessoa64@email.com,12/11/2024,ambigua repetida
+65,Pessoa65,pessoa65@email.com,2024/08/15,iso barra
+66,Pessoa66,pessoa66@email.com,08-15-2024,us hifen
+67,Pessoa67,pessoa67@email.com,15-08-2024,br hifen
+68,Pessoa68,pessoa68@email.com,,vazia
+69,Pessoa69,pessoa69@email.com,nao-e-data,texto
+70,Pessoa70,pessoa70@email.com,2024-02-29,bissexto valido repetido
+71,Pessoa71,pessoa71@email.com,2023-02-29,bissexto invalido repetido
+72,Pessoa72,pessoa72@email.com,31/04/2024,dia invalido repetido
+73,Pessoa73,pessoa73@email.com,01/02/2024,ambigua repetida
+74,Pessoa74,pessoa74@email.com,12/11/2024,ambigua repetida
+75,Pessoa75,pessoa75@email.com,2024/08/15,iso barra
+76,Pessoa76,pessoa76@email.com,08-15-2024,us hifen
+77,Pessoa77,pessoa77@email.com,15-08-2024,br hifen
+78,Pessoa78,pessoa78@email.com,,vazia
+79,Pessoa79,pessoa79@email.com,nao-e-data,texto
+80,Pessoa80,pessoa80@email.com,2024-02-29,bissexto valido repetido
+81,Pessoa81,pessoa81@email.com,2023-02-29,bissexto invalido repetido
+82,Pessoa82,pessoa82@email.com,31/04/2024,dia invalido repetido
+83,Pessoa83,pessoa83@email.com,01/02/2024,ambigua repetida
+84,Pessoa84,pessoa84@email.com,12/11/2024,ambigua repetida
+85,Pessoa85,pessoa85@email.com,2024/08/15,iso barra
+86,Pessoa86,pessoa86@email.com,08-15-2024,us hifen
+87,Pessoa87,pessoa87@email.com,15-08-2024,br hifen
+88,Pessoa88,pessoa88@email.com,,vazia
+89,Pessoa89,pessoa89@email.com,nao-e-data,texto
+90,Pessoa90,pessoa90@email.com,2024-02-29,bissexto valido repetido
+91,Pessoa91,pessoa91@email.com,2023-02-29,bissexto invalido repetido
+92,Pessoa92,pessoa92@email.com,31/04/2024,dia invalido repetido
+93,Pessoa93,pessoa93@email.com,01/02/2024,ambigua repetida
+94,Pessoa94,pessoa94@email.com,12/11/2024,ambigua repetida
+95,Pessoa95,pessoa95@email.com,2024/08/15,iso barra
+96,Pessoa96,pessoa96@email.com,08-15-2024,us hifen
+97,Pessoa97,pessoa97@email.com,15-08-2024,br hifen
+98,Pessoa98,pessoa98@email.com,,vazia
+99,Pessoa99,pessoa99@email.com,nao-e-data,texto
+100,Pessoa100,pessoa100@email.com,2024-02-29,bissexto valido repetido
+101,Pessoa101,pessoa101@email.com,2023-02-29,bissexto invalido repetido
+102,Pessoa102,pessoa102@email.com,31/04/2024,dia invalido repetido
+103,Pessoa103,pessoa103@email.com,01/02/2024,ambigua repetida
+104,Pessoa104,pessoa104@email.com,12/11/2024,ambigua repetida
+105,Pessoa105,pessoa105@email.com,2024/08/15,iso barra
+106,Pessoa106,pessoa106@email.com,08-15-2024,us hifen
+107,Pessoa107,pessoa107@email.com,15-08-2024,br hifen
+108,Pessoa108,pessoa108@email.com,,vazia
+109,Pessoa109,pessoa109@email.com,nao-e-data,texto
+110,Pessoa110,pessoa110@email.com,2024-02-29,bissexto valido repetido
+111,Pessoa111,pessoa111@email.com,2023-02-29,bissexto invalido repetido
+112,Pessoa112,pessoa112@email.com,31/04/2024,dia invalido repetido
+113,Pessoa113,pessoa113@email.com,01/02/2024,ambigua repetida
+114,Pessoa114,pessoa114@email.com,12/11/2024,ambigua repetida
+115,Pessoa115,pessoa115@email.com,2024/08/15,iso barra
+116,Pessoa116,pessoa116@email.com,08-15-2024,us hifen
+117,Pessoa117,pessoa117@email.com,15-08-2024,br hifen
+118,Pessoa118,pessoa118@email.com,,vazia
+119,Pessoa119,pessoa119@email.com,nao-e-data,texto
+120,Pessoa120,pessoa120@email.com,2024-02-29,bissexto valido repetido
+121,Pessoa121,pessoa121@email.com,2023-02-29,bissexto invalido repetido
+122,Pessoa122,pessoa122@email.com,31/04/2024,dia invalido repetido
+123,Pessoa123,pessoa123@email.com,01/02/2024,ambigua repetida
+124,Pessoa124,pessoa124@email.com,12/11/2024,ambigua repetida
+125,Pessoa125,pessoa125@email.com,2024/08/15,iso barra
+126,Pessoa126,pessoa126@email.com,08-15-2024,us hifen
+127,Pessoa127,pessoa127@email.com,15-08-2024,br hifen
+128,Pessoa128,pessoa128@email.com,,vazia
+129,Pessoa129,pessoa129@email.com,nao-e-data,texto
+130,Pessoa130,pessoa130@email.com,2024-02-29,bissexto valido repetido
+131,Pessoa131,pessoa131@email.com,2023-02-29,bissexto invalido repetido
+132,Pessoa132,pessoa132@email.com,31/04/2024,dia invalido repetido
+133,Pessoa133,pessoa133@email.com,01/02/2024,ambigua repetida
+134,Pessoa134,pessoa134@email.com,12/11/2024,ambigua repetida
+135,Pessoa135,pessoa135@email.com,2024/08/15,iso barra
+136,Pessoa136,pessoa136@email.com,08-15-2024,us hifen
+137,Pessoa137,pessoa137@email.com,15-08-2024,br hifen
+138,Pessoa138,pessoa138@email.com,,vazia
+139,Pessoa139,pessoa139@email.com,nao-e-data,texto
+140,Pessoa140,pessoa140@email.com,2024-02-29,bissexto valido repetido
+141,Pessoa141,pessoa141@email.com,2023-02-29,bissexto invalido repetido
+142,Pessoa142,pessoa142@email.com,31/04/2024,dia invalido repetido
+143,Pessoa143,pessoa143@email.com,01/02/2024,ambigua repetida
+144,Pessoa144,pessoa144@email.com,12/11/2024,ambigua repetida
+145,Pessoa145,pessoa145@email.com,2024/08/15,iso barra
+146,Pessoa146,pessoa146@email.com,08-15-2024,us hifen
+147,Pessoa147,pessoa147@email.com,15-08-2024,br hifen
+148,Pessoa148,pessoa148@email.com,,vazia
+149,Pessoa149,pessoa149@email.com,nao-e-data,texto
+150,Pessoa150,pessoa150@email.com,2024-02-29,bissexto valido repetido
+151,Pessoa151,pessoa151@email.com,2023-02-29,bissexto invalido repetido
+152,Pessoa152,pessoa152@email.com,31/04/2024,dia invalido repetido
+153,Pessoa153,pessoa153@email.com,01/02/2024,ambigua repetida
+154,Pessoa154,pessoa154@email.com,12/11/2024,ambigua repetida
+155,Pessoa155,pessoa155@email.com,2024/08/15,iso barra
+156,Pessoa156,pessoa156@email.com,08-15-2024,us hifen
+157,Pessoa157,pessoa157@email.com,15-08-2024,br hifen
+158,Pessoa158,pessoa158@email.com,,vazia
+159,Pessoa159,pessoa159@email.com,nao-e-data,texto
+160,Pessoa160,pessoa160@email.com,2024-02-29,bissexto valido repetido
+161,Pessoa161,pessoa161@email.com,2023-02-29,bissexto invalido repetido
+162,Pessoa162,pessoa162@email.com,31/04/2024,dia invalido repetido
+163,Pessoa163,pessoa163@email.com,01/02/2024,ambigua repetida
+164,Pessoa164,pessoa164@email.com,12/11/2024,ambigua repetida
+165,Pessoa165,pessoa165@email.com,2024/08/15,iso barra
+166,Pessoa166,pessoa166@email.com,08-15-2024,us hifen
+167,Pessoa167,pessoa167@email.com,15-08-2024,br hifen
+168,Pessoa168,pessoa168@email.com,,vazia
+169,Pessoa169,pessoa169@email.com,nao-e-data,texto
+170,Pessoa170,pessoa170@email.com,2024-02-29,bissexto valido repetido
+171,Pessoa171,pessoa171@email.com,2023-02-29,bissexto invalido repetido
+172,Pessoa172,pessoa172@email.com,31/04/2024,dia invalido repetido
+173,Pessoa173,pessoa173@email.com,01/02/2024,ambigua repetida
+174,Pessoa174,pessoa174@email.com,12/11/2024,ambigua repetida
+175,Pessoa175,pessoa175@email.com,2024/08/15,iso barra
+176,Pessoa176,pessoa176@email.com,08-15-2024,us hifen
+177,Pessoa177,pessoa177@email.com,15-08-2024,br hifen
+178,Pessoa178,pessoa178@email.com,,vazia
+179,Pessoa179,pessoa179@email.com,nao-e-data,texto
+180,Pessoa180,pessoa180@email.com,2024-02-29,bissexto valido repetido
+181,Pessoa181,pessoa181@email.com,2023-02-29,bissexto invalido repetido
+182,Pessoa182,pessoa182@email.com,31/04/2024,dia invalido repetido
+183,Pessoa183,pessoa183@email.com,01/02/2024,ambigua repetida
+184,Pessoa184,pessoa184@email.com,12/11/2024,ambigua repetida
+185,Pessoa185,pessoa185@email.com,2024/08/15,iso barra
+186,Pessoa186,pessoa186@email.com,08-15-2024,us hifen
+187,Pessoa187,pessoa187@email.com,15-08-2024,br hifen
+188,Pessoa188,pessoa188@email.com,,vazia
+189,Pessoa189,pessoa189@email.com,nao-e-data,texto
+190,Pessoa190,pessoa190@email.com,2024-02-29,bissexto valido repetido
+191,Pessoa191,pessoa191@email.com,2023-02-29,bissexto invalido repetido
+192,Pessoa192,pessoa192@email.com,31/04/2024,dia invalido repetido
+193,Pessoa193,pessoa193@email.com,01/02/2024,ambigua repetida
+194,Pessoa194,pessoa194@email.com,12/11/2024,ambigua repetida
+195,Pessoa195,pessoa195@email.com,2024/08/15,iso barra
+196,Pessoa196,pessoa196@email.com,08-15-2024,us hifen
+197,Pessoa197,pessoa197@email.com,15-08-2024,br hifen
+198,Pessoa198,pessoa198@email.com,,vazia
+199,Pessoa199,pessoa199@email.com,nao-e-data,texto
+200,Pessoa200,pessoa200@email.com,2024-02-29,bissexto valido repetido
+201,Pessoa201,pessoa201@email.com,2023-02-29,bissexto invalido repetido
+202,Pessoa202,pessoa202@email.com,31/04/2024,dia invalido repetido
+203,Pessoa203,pessoa203@email.com,01/02/2024,ambigua repetida
+204,Pessoa204,pessoa204@email.com,12/11/2024,ambigua repetida
+205,Pessoa205,pessoa205@email.com,2024/08/15,iso barra
+206,Pessoa206,pessoa206@email.com,08-15-2024,us hifen
+207,Pessoa207,pessoa207@email.com,15-08-2024,br hifen
+208,Pessoa208,pessoa208@email.com,,vazia
+209,Pessoa209,pessoa209@email.com,nao-e-data,texto
+210,Pessoa210,pessoa210@email.com,2024-02-29,bissexto valido repetido
+211,Pessoa211,pessoa211@email.com,2023-02-29,bissexto invalido repetido
+212,Pessoa212,pessoa212@email.com,31/04/2024,dia invalido repetido
+213,Pessoa213,pessoa213@email.com,01/02/2024,ambigua repetida
+214,Pessoa214,pessoa214@email.com,12/11/2024,ambigua repetida
+215,Pessoa215,pessoa215@email.com,2024/08/15,iso barra
+216,Pessoa216,pessoa216@email.com,08-15-2024,us hifen
+217,Pessoa217,pessoa217@email.com,15-08-2024,br hifen
+218,Pessoa218,pessoa218@email.com,,vazia
+219,Pessoa219,pessoa219@email.com,nao-e-data,texto
+220,Pessoa220,pessoa220@email.com,2024-02-29,bissexto valido repetido
+221,Pessoa221,pessoa221@email.com,2023-02-29,bissexto invalido repetido
+222,Pessoa222,pessoa222@email.com,31/04/2024,dia invalido repetido
+223,Pessoa223,pessoa223@email.com,01/02/2024,ambigua repetida
+224,Pessoa224,pessoa224@email.com,12/11/2024,ambigua repetida
+225,Pessoa225,pessoa225@email.com,2024/08/15,iso barra
+226,Pessoa226,pessoa226@email.com,08-15-2024,us hifen
+227,Pessoa227,pessoa227@email.com,15-08-2024,br hifen
+228,Pessoa228,pessoa228@email.com,,vazia
+229,Pessoa229,pessoa229@email.com,nao-e-data,texto
+230,Pessoa230,pessoa230@email.com,2024-02-29,bissexto valido repetido
+231,Pessoa231,pessoa231@email.com,2023-02-29,bissexto invalido repetido
+232,Pessoa232,pessoa232@email.com,31/04/2024,dia invalido repetido
+233,Pessoa233,pessoa233@email.com,01/02/2024,ambigua repetida
+234,Pessoa234,pessoa234@email.com,12/11/2024,ambigua repetida
+235,Pessoa235,pessoa235@email.com,2024/08/15,iso barra
+236,Pessoa236,pessoa236@email.com,08-15-2024,us hifen
+237,Pessoa237,pessoa237@email.com,15-08-2024,br hifen
+238,Pessoa238,pessoa238@email.com,,vazia
+239,Pessoa239,pessoa239@email.com,nao-e-data,texto
+240,Pessoa240,pessoa240@email.com,2024-02-29,bissexto valido repetido
+241,Pessoa241,pessoa241@email.com,2023-02-29,bissexto invalido repetido
+242,Pessoa242,pessoa242@email.com,31/04/2024,dia invalido repetido
+243,Pessoa243,pessoa243@email.com,01/02/2024,ambigua repetida
+244,Pessoa244,pessoa244@email.com,12/11/2024,ambigua repetida
+245,Pessoa245,pessoa245@email.com,2024/08/15,iso barra
+246,Pessoa246,pessoa246@email.com,08-15-2024,us hifen
+247,Pessoa247,pessoa247@email.com,15-08-2024,br hifen
+248,Pessoa248,pessoa248@email.com,,vazia
+249,Pessoa249,pessoa249@email.com,nao-e-data,texto
+250,Pessoa250,pessoa250@email.com,2024-02-29,bissexto valido repetido
+251,Pessoa251,pessoa251@email.com,2023-02-29,bissexto invalido repetido
+252,Pessoa252,pessoa252@email.com,31/04/2024,dia invalido repetido
+253,Pessoa253,pessoa253@email.com,01/02/2024,ambigua repetida
+254,Pessoa254,pessoa254@email.com,12/11/2024,ambigua repetida
+255,Pessoa255,pessoa255@email.com,2024/08/15,iso barra
+256,Pessoa256,pessoa256@email.com,08-15-2024,us hifen
+257,Pessoa257,pessoa257@email.com,15-08-2024,br hifen
+258,Pessoa258,pessoa258@email.com,,vazia
+259,Pessoa259,pessoa259@email.com,nao-e-data,texto
+260,Pessoa260,pessoa260@email.com,2024-02-29,bissexto valido repetido
+261,Pessoa261,pessoa261@email.com,2023-02-29,bissexto invalido repetido
+262,Pessoa262,pessoa262@email.com,31/04/2024,dia invalido repetido
+263,Pessoa263,pessoa263@email.com,01/02/2024,ambigua repetida
+264,Pessoa264,pessoa264@email.com,12/11/2024,ambigua repetida
+265,Pessoa265,pessoa265@email.com,2024/08/15,iso barra
+266,Pessoa266,pessoa266@email.com,08-15-2024,us hifen
+267,Pessoa267,pessoa267@email.com,15-08-2024,br hifen
+268,Pessoa268,pessoa268@email.com,,vazia
+269,Pessoa269,pessoa269@email.com,nao-e-data,texto
+270,Pessoa270,pessoa270@email.com,2024-02-29,bissexto valido repetido
+271,Pessoa271,pessoa271@email.com,2023-02-29,bissexto invalido repetido
+272,Pessoa272,pessoa272@email.com,31/04/2024,dia invalido repetido
+273,Pessoa273,pessoa273@email.com,01/02/2024,ambigua repetida
+274,Pessoa274,pessoa274@email.com,12/11/2024,ambigua repetida
+275,Pessoa275,pessoa275@email.com,2024/08/15,iso barra
+276,Pessoa276,pessoa276@email.com,08-15-2024,us hifen
+277,Pessoa277,pessoa277@email.com,15-08-2024,br hifen
+278,Pessoa278,pessoa278@email.com,,vazia
+279,Pessoa279,pessoa279@email.com,nao-e-data,texto
+280,Pessoa280,pessoa280@email.com,2024-02-29,bissexto valido repetido
+281,Pessoa281,pessoa281@email.com,2023-02-29,bissexto invalido repetido
+282,Pessoa282,pessoa282@email.com,31/04/2024,dia invalido repetido
+283,Pessoa283,pessoa283@email.com,01/02/2024,ambigua repetida
+284,Pessoa284,pessoa284@email.com,12/11/2024,ambigua repetida
+285,Pessoa285,pessoa285@email.com,2024/08/15,iso barra
+286,Pessoa286,pessoa286@email.com,08-15-2024,us hifen
+287,Pessoa287,pessoa287@email.com,15-08-2024,br hifen
+288,Pessoa288,pessoa288@email.com,,vazia
+289,Pessoa289,pessoa289@email.com,nao-e-data,texto
+290,Pessoa290,pessoa290@email.com,2024-02-29,bissexto valido repetido
+291,Pessoa291,pessoa291@email.com,2023-02-29,bissexto invalido repetido
+292,Pessoa292,pessoa292@email.com,31/04/2024,dia invalido repetido
+293,Pessoa293,pessoa293@email.com,01/02/2024,ambigua repetida
+294,Pessoa294,pessoa294@email.com,12/11/2024,ambigua repetida
+295,Pessoa295,pessoa295@email.com,2024/08/15,iso barra
+296,Pessoa296,pessoa296@email.com,08-15-2024,us hifen
+297,Pessoa297,pessoa297@email.com,15-08-2024,br hifen
+298,Pessoa298,pessoa298@email.com,,vazia
+299,Pessoa299,pessoa299@email.com,nao-e-data,texto
+300,Pessoa300,pessoa300@email.com,2024-02-29,bissexto valido repetido
+301,Pessoa301,pessoa301@email.com,2023-02-29,bissexto invalido repetido
+302,Pessoa302,pessoa302@email.com,31/04/2024,dia invalido repetido
+303,Pessoa303,pessoa303@email.com,01/02/2024,ambigua repetida
+304,Pessoa304,pessoa304@email.com,12/11/2024,ambigua repetida
+305,Pessoa305,pessoa305@email.com,2024/08/15,iso barra
+306,Pessoa306,pessoa306@email.com,08-15-2024,us hifen
+307,Pessoa307,pessoa307@email.com,15-08-2024,br hifen
+308,Pessoa308,pessoa308@email.com,,vazia
+309,Pessoa309,pessoa309@email.com,nao-e-data,texto
+310,Pessoa310,pessoa310@email.com,2024-02-29,bissexto valido repetido
+311,Pessoa311,pessoa311@email.com,2023-02-29,bissexto invalido repetido
+312,Pessoa312,pessoa312@email.com,31/04/2024,dia invalido repetido
+313,Pessoa313,pessoa313@email.com,01/02/2024,ambigua repetida
+314,Pessoa314,pessoa314@email.com,12/11/2024,ambigua repetida
+315,Pessoa315,pessoa315@email.com,2024/08/15,iso barra
+316,Pessoa316,pessoa316@email.com,08-15-2024,us hifen
+317,Pessoa317,pessoa317@email.com,15-08-2024,br hifen
+318,Pessoa318,pessoa318@email.com,,vazia
+319,Pessoa319,pessoa319@email.com,nao-e-data,texto
+320,Pessoa320,pessoa320@email.com,2024-02-29,bissexto valido repetido
