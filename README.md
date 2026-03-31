@@ -55,7 +55,3 @@ go run main.go
 Transformar o projeto em uma ferramenta reutilizável para pipelines de dados e automação.
 
 ---
-
-## 👩‍💻 Autora
-
-Fernanda Sales
